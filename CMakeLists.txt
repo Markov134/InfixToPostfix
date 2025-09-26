@@ -3,4 +3,6 @@ project(InfixToPostfix)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(InfixToPostfix main.cpp)
+add_executable(InfixToPostfix main.cpp
+        src/InfixToPostfix.cpp
+        src/InfixToPostfix.h)
